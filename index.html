@@ -6,22 +6,27 @@
     <title>Curso Interactivo de Python</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react/": "https://esm.sh/react@^19.1.0/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.2.0"
-  }
-}
-</script>
+    <link rel="stylesheet" href="index.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.1.0",
+          "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+          "react/": "https://esm.sh/react@^19.1.0/",
+          "@google/genai": "https://esm.sh/@google/genai@^1.2.0"
+        }
+      }
+    </script>
     <!-- Babel Standalone for in-browser TSX transpilation -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
+  </head>
   <body class="bg-gradient-to-br from-slate-900 to-slate-800 text-slate-100 min-h-screen">
     <div id="root"></div>
-    <script type="text/babel" data-type="module" data-presets="typescript,react" src="/src/index.tsx"></script>
+    <script 
+      type="text/babel"
+      data-type="module"
+      data-presets="typescript,react"
+      src="/src/index.tsx">
+    </script>
   </body>
-</html><link rel="stylesheet" href="index.css">
-<script src="index.tsx" type="module"></script>
+</html>
